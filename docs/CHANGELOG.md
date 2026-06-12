@@ -1,5 +1,23 @@
 # Changelog — COAF website build
 
+## v0.4 — 2026-06-12  (imagery + partners + testimonials)
+Added
+- Faded hero background photos on all interior pages (matching the home hero treatment).
+- Image banners on About, Programs, Scholarships, Donate, Impact.
+- Photos inside program cards (home + programs) and Impact "why athletics" cards.
+- Donate page EIN badge (93-1548121) prominently for donor records.
+- Scholarships "Partner resources": Achieve Sports + My Spark Scholarship, with outbound links.
+- Impact testimonials (4, illustrative — flagged for real quotes) + an impact stat trio
+  (300+ families / 3 programs / multiple seasons).
+- Maturity framing: site now reflects several years of operation and hundreds of families
+  served (home, about, impact).
+Changed
+- Header sub-line "Everyone is welcome" -> "Welcome Everyone".
+- Transparency copy reframed: COAF reports how DONATED dollars are used, not the full
+  operating books (about, donate, impact).
+New CSS: .section-banner, .card-photo, .testimonials/.quote, .ein-badge, page-hero media.
+
+
 ## v0.3 — 2026-06-12  (content + media + polish)
 Added
 - Real free-license images (Unsplash, hotlinked): home hero bg, volleyball, basketball,

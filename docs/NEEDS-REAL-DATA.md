@@ -22,3 +22,10 @@
 - **Board members** — two boards now exist: Operations board (President / Treasurer / Secretary) and Fundraising board (Chair / Partnerships / Events). All are placeholder cards — add real names, photos, bios.
 - **Images are hotlinked** from Unsplash. Optional but recommended: download + self-host before launch (see docs/IMAGES.md).
 - **Application backend** — form still composes a mailto email. For a more formal pipeline, wire to a hosted form (see options in chat) and confirm destination inbox.
+
+## Added round 4 (June 2026)
+- **Testimonials are ILLUSTRATIVE placeholders.** The 4 quotes on impact.html (Marisol R., James T., Adaeze O., Crystal M.) are written examples, not real people. Replace with real, consented quotes before publishing — using invented testimonials on a live charity site is misleading.
+- **"300+ families" / "several years" / "Multiple seasons"** on impact.html and the hundreds-of-families lines on home/about are approximate. Confirm the real cumulative families-served number and the founding year, then set exact figures.
+- **Achieve Sports link** points to achievesports.com (Aurora youth sports center). Confirm this is the correct partner entity and that families-in-need access is via their member portal; swap to a dedicated assistance/portal URL if one exists.
+- **My Spark link** points to the DPS Foundation My Spark Scholarship page. Confirm eligibility note (DPS families) fits the families you refer.
+- **Donor-money framing:** copy now says COAF reports how donated dollars are used, not the full operating books. Make sure any published financials match that scope.

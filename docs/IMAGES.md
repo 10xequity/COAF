@@ -29,3 +29,6 @@ Full page for any photo: https://unsplash.com/photos/<slug>  (search the ID on u
   for a diverse **group** fitness/class image (keep it inclusive, women-forward per the program).
 - No team/league/brand logos appear; nothing implies endorsement. Keep it that way on swaps.
 - No identifiable minors in close-up; prefer action/crowd framing on any replacement.
+
+## Round 4 usage
+The same 6 verified Unsplash photos are now reused across page-hero backgrounds (faded), section banners, and card photos. Still hotlinked — self-host before final launch. No new image IDs introduced.
