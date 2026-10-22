@@ -84,6 +84,7 @@
         "Email: " + d.get("email") + "\n" +
         "Phone: " + (d.get("phone") || "n/a") + "\n" +
         "Program of interest: " + d.get("program") + "\n" +
+        "Roster status: " + d.get("roster") + "\n" +
         "Age group: " + d.get("agegroup") + "\n" +
         "People in household: " + (d.get("household") || "n/a") + "\n" +
         "Need basis: " + d.get("basis") + "\n\n" +

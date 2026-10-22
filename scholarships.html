@@ -76,7 +76,8 @@
             <p>To be considered for a COAF access scholarship, an applicant must meet all of the following:</p>
             <ul class="check-list" style="margin-top:1rem;">
               <li><strong>Residency.</strong> Colorado resident. Priority is given to the Aurora and Denver metro communities the foundation serves.</li>
-              <li><strong>Eligible program.</strong> Enrolling in, or seeking to enroll in, a COAF-supported program: youth volleyball (Colorado Boom), youth basketball (Team EVO), or COAF Community Fitness (adults).</li>
+              <li><strong>Eligible program.</strong> Enrolled in, or accepted into, a COAF-supported program: youth volleyball (Colorado Boom), youth basketball (Team EVO), or COAF Community Fitness (adults).</li>
+              <li><strong>Roster placement first.</strong> Youth applicants must already have been awarded a role in the club &mdash; a roster spot or team placement offered by Colorado Boom or Team EVO &mdash; before applying. A COAF scholarship covers the cost of a place the club has already awarded; it does not secure one. Tryouts, team placement, and coaching decisions belong to the club, not the foundation.</li>
               <li><strong>Age.</strong> Youth applicants must have a parent or legal guardian complete and sign the application. Adult applicants (18+) apply on their own behalf.</li>
               <li><strong>Demonstrated financial need.</strong> Household qualifies under at least one of: participation in a means-tested program (SNAP, Medicaid, free/reduced school lunch, TANF, or housing assistance), <em>or</em> household income at or below the threshold the board sets each program year. <span class="form-note">[NEEDS REAL DATA: confirm the income threshold — e.g. a multiple of the federal poverty level — with the board.]</span></li>
               <li><strong>Commitment.</strong> A genuine intent to participate for the season or term the award covers.</li>
@@ -125,6 +126,16 @@
                     <option>Youth basketball (Team EVO)</option>
                     <option>COAF Community Fitness (adults)</option>
                   </select>
+                </div>
+                <div class="form-field">
+                  <label for="roster">Roster status</label>
+                  <select id="roster" name="roster" required>
+                    <option value="" disabled selected>Select one</option>
+                    <option>Offered a roster spot / team placement by the club</option>
+                    <option>Currently enrolled in the program</option>
+                    <option>Adult applicant &mdash; COAF Community Fitness</option>
+                  </select>
+                  <span class="form-note">Youth applicants must be placed on a team by the club before COAF can consider an award.</span>
                 </div>
                 <div class="form-field">
                   <label for="agegroup">Age group</label>

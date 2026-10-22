@@ -181,6 +181,7 @@ p + p { margin-top: 1rem; }
 .section-head.center { margin-left: auto; margin-right: auto; text-align: center; }
 
 .grid { display: grid; gap: 1.6rem; }
+.grid > * { min-width: 0; }
 .grid-2 { grid-template-columns: repeat(2, 1fr); }
 .grid-3 { grid-template-columns: repeat(3, 1fr); }
 @media (max-width: 900px) { .grid-3 { grid-template-columns: 1fr; } .grid-2 { grid-template-columns: 1fr; } }
@@ -263,7 +264,7 @@ p + p { margin-top: 1rem; }
 .form-field label { font-weight: 700; font-size: .92rem; }
 .form-field input, .form-field select, .form-field textarea {
   font: inherit; padding: .8rem 1rem; border: 1.5px solid var(--line); border-radius: 10px;
-  background: #fff; color: var(--ink);
+  background: #fff; color: var(--ink); width: 100%; max-width: 100%;
 }
 .form-field input:focus, .form-field select:focus, .form-field textarea:focus {
   outline: 3px solid rgba(43,92,173,.35); border-color: var(--sky);

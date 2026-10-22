@@ -18,6 +18,22 @@ Changed
 New CSS: .section-banner, .card-photo, .testimonials/.quote, .ein-badge, page-hero media.
 
 
+## v0.4 — 2026-10-22  (phone clipping + roster-first rule)
+Fixed
+- Phone layouts (≤ 900px) scrolled sideways on Scholarships: the form's text box and selects
+  kept an intrinsic width wider than the screen and the `1fr` grid track could not shrink
+  below it, so the right edge of the eligibility text and form was clipped / covered.
+  `.grid > * { min-width: 0 }` plus `width: 100%` on form controls.
+Added
+- Eligibility: **Roster placement first** — youth applicants must already hold a roster spot
+  or team placement from the club before applying; the award covers a place, it does not
+  secure one. "Eligible program" reworded to "Enrolled in, or accepted into".
+- Application form: required **Roster status** select; value included in the emailed body.
+Ops
+- GitHub Pages certificate for www.coloradoaf.org was stuck in `dns_changed` after the CNAME
+  file was deleted/recreated; custom domain removed and re-added via API to re-request it.
+  Enforce HTTPS to be switched on once the certificate state is `approved`.
+
 ## v0.3 — 2026-06-12  (content + media + polish)
 Added
 - Real free-license images (Unsplash, hotlinked): home hero bg, volleyball, basketball,
