@@ -18,6 +18,14 @@ Changed
 New CSS: .section-banner, .card-photo, .testimonials/.quote, .ein-badge, page-hero media.
 
 
+## v0.5 — 2026-10-22  (new logo)
+Changed
+- Header mark on all 12 pages replaced with the new COAF emblem (`images/logo-mark.png`,
+  transparent PNG cut from the supplied lockup; 48px in the header).
+Added
+- `favicon.ico`, `images/apple-touch-icon.png`, and an `og:image` (1200×630 lockup on white)
+  on every page — the site previously shipped no icon and no social-preview image.
+
 ## v0.4 — 2026-10-22  (phone clipping + roster-first rule)
 Fixed
 - Phone layouts (≤ 900px) scrolled sideways on Scholarships: the form's text box and selects
