@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.coloradoaf.org/sitemap.xml
+Sitemap: https://coloradoaf.org/sitemap.xml
