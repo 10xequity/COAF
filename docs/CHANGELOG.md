@@ -1,5 +1,24 @@
 # Changelog — COAF website build
 
+## v0.6 — 2026-11-19  (apex canonical + SEO/perf fixes)
+Changed
+- Canonical, og:url, og:image, sitemap and robots.txt now use the apex https://coloradoaf.org (www 301s there).
+- sitemap.xml gained lastmod dates taken from each file's last git commit.
+- Footer column headings h4 → h2 (same look) so the heading outline no longer jumps h2→h4.
+- 404.html: root-relative asset and nav paths (works at any URL depth), noindex, no canonical.
+- Copy: home "Multiple programs. Three sports." → "Three programs."; plainer wording on
+  Scholarships ("seamlessly") and Community Fitness ("whether you're"); about half the em dashes
+  replaced with commas, colons or full stops.
+- CSS: h1–h3 use text-wrap: balance.
+Removed
+- Placeholder GA4 tag (G-XXXXXXXXXX) on all pages: it loaded the Google tag script and tracked
+  nothing. index.html keeps a comment marking where the real tag goes.
+Added
+- JSON-LD NGO record on the home page (name, logo, email, address, EIN, 501(c)(3)). No sameAs:
+  the site links no social profiles.
+- llms.txt site summary; twitter:card summary_large_image on every page.
+- fetchpriority="high" on every page's hero image.
+
 ## v0.4 — 2026-06-12  (imagery + partners + testimonials)
 Added
 - Faded hero background photos on all interior pages (matching the home hero treatment).

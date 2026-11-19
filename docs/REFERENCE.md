@@ -10,7 +10,7 @@ Keep this current. Terse by design.
   multiple programs** — never "exists to fund one club/company."
 
 ## Domains
-- Canonical: **www.coloradoaf.org** (CNAME set). Ads + rel=canonical point here only.
+- Canonical: **coloradoaf.org** (apex, CNAME set; www 301s to apex). Ads + rel=canonical point here only.
 - Alternate: coathleticsfoundation.org → 301 to canonical (Cloudflare rule, TODO).
 
 ## Programs (framing on-site)

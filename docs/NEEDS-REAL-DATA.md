@@ -2,7 +2,7 @@
 
 | # | Item | Where | Current placeholder | Action |
 |---|------|-------|--------------------|--------|
-| 1 | GA4 measurement ID | every page `<head>` | `G-XXXXXXXXXX` | Create GA4 property → replace in all 12 HTML files (find/replace) |
+| 1 | GA4 measurement ID | every page `<head>` (see the comment in index.html) | none: placeholder tag removed v0.6 | Create GA4 property → paste the real gtag.js snippet into all 12 HTML files |
 | 2 | Contact email | footer, contact.html, scholarships form (js/main.js) | `info@coloradoaf.org` | Confirm this inbox exists & is monitored; update if different |
 | 3 | Donation URL | donate.html, header CTA target | `colorado-athletics-foundation.square.site` | Confirm final donation URL; consider on-domain embed later |
 | 4 | Board bios + names | board.html | 3 generic role cards | Replace with real names, photos, bios |

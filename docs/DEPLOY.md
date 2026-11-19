@@ -16,7 +16,7 @@ Cloudflare zone for `coathleticsfoundation.org`:
 
 ## 4. Post-launch checklist (Ad Grants)
 - [ ] HTTPS lock resolves on www.coloradoaf.org
-- [ ] Replace GA4 placeholder ID; verify pageviews in GA4 realtime
+- [ ] Add the real GA4 tag (placeholder removed in v0.6; see comment in index.html); verify pageviews in GA4 realtime
 - [ ] Crawl with a link checker (zero 404s)
 - [ ] Submit sitemap.xml in Google Search Console
 - [ ] Verify EIN 93-1548121 on IRS TEOS → register via Goodstack → Google for Nonprofits → Ad Grants
